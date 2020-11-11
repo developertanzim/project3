@@ -1,0 +1,525 @@
+/*Global CSS*/
+*{margin:0;padding:0}
+body{
+	font-family:Myriad Pro, Arial !important;
+	-webkit-transition: all 0.5s ease;
+	transition: all .5s ease;
+}
+a{
+	text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.fix{
+	overflow:hidden;
+}
+/*Global CSS*/
+
+
+
+/*HEADER START*/
+header{
+	width:100%;
+	background-color:#2a2e33;
+	height: 73px;
+}
+header #header{
+	width:1200px;
+	margin:0 auto;
+}
+header #header img{
+	float:left;
+    margin-top: 27px;
+}
+header #header p{
+    float: left;
+    margin-top: 39px;
+    margin-left: 8px;
+    color: white;
+    font-size: 9pt;
+	margin-right: 27px;
+}
+header #header ul{
+}
+header #header ul li{
+	float:left;
+	list-style:none;
+	padding: 25px;
+}
+header #header ul li:hover{
+	border-top:4px solid #ffd700;
+	background-color:#1e2329;
+}
+header #header ul li a{
+	color:white;
+}
+/*HEADER End*/
+
+
+/*2nd part*/
+#secondp_wrap{
+	width:100%;
+    height: 400px;
+    background-image: url(img/para.png);
+}
+#secondp_wrap #secondp{
+	width:1100px;
+	margin:0 auto;
+	text-align: center;
+}
+#secondp_wrap #secondp #text{
+	padding-top: 69px;
+}
+#secondp_wrap #secondp .hello{
+	    font-size: 22pt;
+		padding-bottom: 19px;
+    color: white;
+}
+#secondp_wrap #secondp .dot1{
+    color: white;
+}
+#secondp_wrap #secondp h1{
+    font-size: 48pt;
+    font-weight: 700;
+    color: white;
+}
+#secondp_wrap #secondp .dot2{
+    padding-bottom: 17px;
+    color: white;
+}
+#secondp_wrap #secondp .hotel{
+	font-size: 22pt;
+    color: white;
+}
+/*2nd part End*/
+
+
+
+
+/*Booking*/
+#booking_wrap{
+		width:1100px;
+	margin:0 auto;
+}
+#booking_wrap #booking{
+
+}
+#booking_wrap #booking .booking{
+    width: 999px;
+    height: 55px;
+    margin-top: -27px;
+    margin-left: 44px;
+	background-color:black;
+}
+#booking_wrap #booking .booking_s{
+	    margin-top: -6px;
+		    margin-left: 44px;
+}
+#booking_wrap #booking .datecss1{
+    background-color: white;
+    padding: 5px;
+    margin-bottom: -7px;
+}
+#booking_wrap #booking .datecss2{
+    background-color: white;
+    padding: 5px;
+    margin-bottom: -7px;
+}
+#booking_wrap #booking input[type="Date"]{
+	
+}
+#booking_wrap #booking .fst{
+	
+}
+#booking_wrap #booking .snd{
+	
+}
+#booking_wrap #booking #arrival{
+	float: left;
+	padding-right: 128px;
+}
+#booking_wrap #booking #arrival .para1{
+	color:white;
+	text-align: center;
+}
+#booking_wrap #booking #departure{
+	float: left;
+	padding-right: 128px;
+}
+#booking_wrap #booking #departure .para2{
+	color:white;
+	text-align: center;
+
+}
+#booking_wrap #booking #selection{
+	float: left;
+    padding-right: 110px;
+}
+#booking_wrap #booking #selection .para3{
+	color:white;
+	text-align: center;
+}
+#booking_wrap #booking #selection select{
+    width: 141px;
+    height: 27px;
+}	
+#booking_wrap #booking #selection select option{
+
+}
+#booking_wrap #booking  .vp{
+    color: black;
+    background-color: #ffd700;
+    overflow: hidden;
+    width: 75px;
+    margin-top: 9px;
+    padding: 8px;
+    border-radius: 13px;
+	cursor:pointer;
+}	
+#booking_wrap #booking #total_wrap{
+	margin-top: -99px;
+	margin-left: 75px;
+
+}
+
+
+
+/*Booking peakge Start*/
+
+#bookp_wrap{
+
+}
+#bookp_wrap #bookp{
+	width:960px;
+  margin: 0 auto;
+}
+#bookp_wrap #bookp .ha{
+    text-align: center;
+    margin-top: 61px;
+    font-family: Palace Script MT;
+    font-size: 60pt;
+    font-weight: 700;
+}
+#bookp_wrap #bookp .pag{
+  text-align: center;
+padding-bottom:47px;
+}
+#bookp_wrap #bookp #fm #arrow{
+  float: left;
+  margin-top: 67px;
+}
+#bookp_wrap #bookp #fm .arrow1{
+}
+#bookp_wrap #bookp #fm #arrow2.arrow2{
+
+}
+#bookp_wrap #bookp #fm #arrow2{
+	margin-top: 67px;
+
+}
+#bookp_wrap #bookp #fm img{
+	float:left;
+	margin-right: 41px;
+}
+#bookp_wrap #bookp #fm{
+	overflow:hidden;
+}
+/*Booking peakge End*/
+
+	
+
+/*Room type Start*/
+#room_type_wrap{
+    width: 100%;
+    background-image: url(img/bac.png);
+	height: 771px;
+    margin-top: 70px;
+}
+#room_type_wrap #room_type{
+		width: 1100px;
+    margin: 0 auto;
+	
+}
+
+#room_type_wrap #room_type .rh{
+    font-family: Palace Script MT;
+    font-size: 63pt;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+
+
+
+#room_type_wrap #room_type #image_rm{
+	float:left;
+	width:300px;
+    margin-right: 27px;
+	margin-left: 90px;
+    
+}
+#room_type_wrap #room_type #image_rm img{
+	
+}
+#room_type_wrap #room_type #image_rm h3{
+	text-align: center;
+}
+#room_type_wrap #room_type #image_rm p{
+	text-align: center;
+}
+
+
+
+
+
+#room_type_wrap #room_type #image_rm1{
+	float:left;
+	width:300px;
+    margin-right: 27px;
+}
+#room_type_wrap #room_type #image_rm1 img{
+	
+}
+#room_type_wrap #room_type #image_rm1 h3{
+	text-align: center;
+}
+#room_type_wrap #room_type #image_rm1 p{
+	text-align: center;
+}
+
+
+
+
+
+#room_type_wrap #room_type #image_rm2{
+	float:left;
+	width:300px;
+    margin-right: 27px;
+}
+#room_type_wrap #room_type #image_rm2 img{
+	
+}
+#room_type_wrap #room_type #image_rm2 h3{
+	text-align: center;
+}
+#room_type_wrap #room_type #image_rm2 p{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+#room_type_wrap #room_type  #last_3{
+	margin-left: 90px;
+}
+
+#room_type_wrap #room_type #last_3  #image_rm3 {
+	float:left;
+	width:300px;
+    margin-right: 27px;
+    margin-top: 57px;
+}
+#room_type_wrap #room_type #last_3  #image_rm3  img{
+
+}
+#room_type_wrap #room_type #last_3  #image_rm3  h3{
+	text-align: center;
+}
+#room_type_wrap #room_type #last_3  #image_rm3  p{
+	text-align: center;
+}
+
+
+
+
+
+
+#room_type_wrap #room_type #last_3 #image_rm4  {
+	float:left;
+	width:300px;
+    margin-right: 27px;
+    margin-top: 57px;
+}
+#room_type_wrap #room_type #last_3 #image_rm4  img{
+	
+}
+#room_type_wrap #room_type #last_3 #image_rm4  h3{
+	text-align: center;
+}
+#room_type_wrap #room_type #last_3 #image_rm4  p{
+	text-align: center;
+}
+
+
+
+
+#room_type_wrap #room_type #last_3 #image_rm5 {
+	float:left;
+	width:300px;
+    margin-right: 27px;
+    margin-top: 57px;
+}
+#room_type_wrap #room_type #last_3 #image_rm5 img{
+	
+}
+#room_type_wrap #room_type #last_3 #image_rm5 h3{
+	text-align: center;
+}
+#room_type_wrap #room_type #last_3 #image_rm5 p{
+	text-align: center;
+}
+/*Room type End*/
+
+
+
+/*John doe Start*/
+#jone_de_wrap{
+	background-color:#e7cb2c;
+	width:100%;
+}
+#jone_de_wrap #jone_de{
+	width: 1100px;
+    margin: 0 auto;
+}
+#jone_de_wrap #jone_de  #jone_de_wr{
+	float: left;
+    margin-right: 84px;
+}
+#jone_de_wrap #jone_de  #jone_de_wr h2{
+	    font-size: 54px;
+}
+#jone_de_wrap #jone_de  #jone_de_wr p{
+	font-size: 14pt;
+}
+#jone_de_wrap #jone_de img{
+    width: 209px;
+    margin-top: -90px;
+}
+/*John doe End*/
+
+
+
+/*Footer Start*/
+#footer_wrap{
+	background-color:#333333;
+	overflow:hidden;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+#footer_wrap #footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+#footer_wrap #footer #div1{
+	width: 197px;
+	float:left;
+    margin-right: 20px;
+}
+#footer_wrap #footer #div1 h4{
+	color:white;
+font-weight: 800;
+    font-size: 14pt;
+}
+#footer_wrap #footer #div1 p{
+	color:white;
+	text-align: justify;
+}
+
+
+
+
+
+#footer_wrap #footer #div02{
+    width: 214px;
+	float:left;
+    margin-right: 20px;
+}
+#footer_wrap #footer #div02 h4{
+	color:white;
+font-weight: 800;
+    font-size: 14pt;
+}
+#footer_wrap #footer #div02 p{
+	color:white;
+}
+
+
+
+
+#footer_wrap #footer #div03{
+    width: 359px;
+	float:left;
+    margin-right: 20px;
+}
+#footer_wrap #footer #div03 h4{
+	color:white;
+	font-weight: 800;
+    font-size: 14pt;
+}
+#footer_wrap #footer #div03 p{
+	color:white;
+	text-align: justify;
+}
+#footer_wrap #footer #div03 .rm{
+    color: white;
+    margin-top: 44px;
+    border: 2px solid #e7cb2c;
+    width: 86px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #e7cb2c;
+	cursor:pointer;
+}
+
+
+
+#footer_wrap #footer #div04{
+	width:250px;
+	float:left;
+	margin-right: 20px;
+		color:white;
+}
+#footer_wrap #footer #div04 h4{
+		color:white;
+	font-weight: 800;
+    font-size: 14pt;
+}
+#footer_wrap #footer #div04 input[type="Name"]{
+    width: 166px;
+    height: 24px;
+    border-radius: 13px;
+}
+#footer_wrap #footer #div04 input[type="Text"]{
+	width: 166px;
+    height: 24px;
+    border-radius: 13px;
+}
+#footer_wrap #footer #div04 .lgn{
+margin-top: 18px;
+    /* margin-left: 16px; */
+    border: 2px solid #e7cb2c;
+    width: 84px;
+    padding: 7px;
+    background-color: #e7cb2c;
+    border-radius: 16px;
+	cursor:pointer;
+}
+
+#end{
+	width: 100%;
+    height: 40px;
+    background-color: #1f1f1f;
+}
